@@ -1,0 +1,85 @@
+/* Home Page */
+
+.home-page {
+  text-align: center; 
+}
+
+.home-page h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: linear-gradient(#033747,#012733);
+  margin-top: 50px;
+}
+ 
+.home-page p {
+  font-size: 25px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-image: linear-gradient(#033747,#012733);
+  padding: 10px 20px; 
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+
+}
+
+.navbar li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+.navbar li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #ff8c69;
+  transition: all 0.4s ease 0s;
+}
+
+.text-white {
+  color: white;
+ font-weight: bold;
+ 
+}
+.custom-nav {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+/* Quote */
+.calculate-button {
+  background-image: linear-gradient(#033747,#012733);
+  color: white; 
+  font-weight: bold;
+  
+}
+
+.calculate-button :hover{
+  color: #ff8c69;
+  transition: all 0.4s ease 0s;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5); 
+  margin-right: 5px; 
+}
